@@ -1,4 +1,4 @@
-Projeto de Machine Learning Automatizado no Azure ML
+*Projeto de Machine Learning Automatizado no Azure ML*
 
 Visão Geral
 
