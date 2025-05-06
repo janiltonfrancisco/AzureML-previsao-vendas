@@ -1,0 +1,17 @@
+O projeto se baseia em dados de vendas e temperaturas ao longo de um período de três meses, permitindo a criação de um modelo de aprendizado de máquina automático (AutoML) no Azure Machine Learning. Utilizando pipelines, computes e designs, a arquitetura do modelo foi estruturada para automatizar o processamento, treinar algoritmos e realizar previsões.
+
+1. Análise dos Dados
+Os dados mostram padrões de vendas de unidades variando conforme as temperaturas diárias. Algumas possíveis observações incluem:
+
+Correlação entre temperatura e vendas: Em temperaturas mais altas, pode haver um aumento nas vendas.
+
+Ciclos sazonais: As flutuações nas vendas ao longo dos dias sugerem comportamento sazonal que pode ser capturado pelo modelo.
+
+2. Aplicação do Machine Learning
+O uso de Azure ML AutoML permitiu:
+
+Automatização da escolha de modelos para prever vendas futuras com base em temperatura.
+
+Treinamento otimizado por meio da melhor combinação de algoritmos.
+
+Execução via Pipelines para organizar as etapas de pré-processamento, treinamento e predição.
